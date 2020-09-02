@@ -30,7 +30,7 @@ const Navigation: FC<NavigationProps> = (props) => {
 
   React.useEffect(() => {
     props.history.location.pathname === "/home" && setValue(1);
-  });
+  }, [props.history.location.pathname]);
 
   const handleClick = (route: string) => {
     history.push(route);
