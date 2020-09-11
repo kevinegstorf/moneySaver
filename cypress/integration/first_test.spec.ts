@@ -1,20 +1,25 @@
 /// <reference types="cypress" />
 context("Actions", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:3000");
+    cy.visit(
+      "https://5f500ca578738c0007991226--trusting-heisenberg-d5b055.netlify.app/"
+    );
   });
   it("cy.title() - get the title", () => {
     cy.title().should("include", "React App");
     cy.contains("Login");
-    cy.get("#username").type("test@test.com");
+    cy.get("#email").type("test@test.com");
     cy.get("#password").type("1234");
-    cy.get("#eye").click();
-    cy.contains("Home").click();
-    cy.contains("HomePage");
+    cy.get("#submit").click();
+    cy.contains("Dashboard");
   });
-  it("login button ", () => {
+  it("DashBoard Page", () => {
     cy.contains("Login");
     cy.get("#submit").click();
-    cy.contains("HomePage");
+    cy.contains("Dashboard");
+    cy.contains("Budget");
+    cy.contains("Amount");
+    cy.contains("Balance");
+    cy.contains("Fixed Costs");
   });
 });
