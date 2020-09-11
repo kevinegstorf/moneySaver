@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`login snapshot 1`] = `
+<div
+  class="MuiPaper-root makeStyles-paper-8 MuiPaper-elevation7 MuiPaper-rounded"
+>
+  <div
+    class="MuiPaper-root MuiCard-root makeStyles-card-7 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <form
+      class="makeStyles-form-9"
+    >
+      <div
+        class="MuiFormControl-root MuiTextField-root makeStyles-input-12"
+      >
+        <label
+          class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink Mui-focused Mui-focused"
+          data-shrink="true"
+          for="email"
+          id="email-label"
+        >
+          Email Address
+        </label>
+        <div
+          class="MuiInputBase-root MuiInput-root MuiInput-underline Mui-focused Mui-focused MuiInputBase-formControl MuiInput-formControl"
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInputBase-input MuiInput-input"
+            form="[object Object]"
+            id="email"
+            type="email"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="MuiFormControl-root MuiTextField-root makeStyles-input-12"
+      >
+        <label
+          class="MuiFormLabel-root MuiFormLabel-colorSecondary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+          data-shrink="false"
+          for="password"
+          id="password-label"
+        >
+          Password
+        </label>
+        <div
+          class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-colorSecondary MuiInput-colorSecondary MuiInputBase-formControl MuiInput-formControl"
+        >
+          <input
+            aria-invalid="false"
+            autocomplete="off"
+            class="MuiInputBase-input MuiInput-input"
+            id="password"
+            type="password"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="makeStyles-buttonWrapper-10"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-button-11 MuiButton-outlinedPrimary MuiButton-outlinedSizeLarge MuiButton-sizeLarge"
+          id="submit"
+          style="text-transform: none;"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Login
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;
